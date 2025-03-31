@@ -1,7 +1,32 @@
 body {
     background-color: black;
+    font-family: sans-serif;
 }
 
 .navegacao {
-    background-color: blueviolet;
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    top: 0;
+    box-shadow: 8px 0px 8px grey;
+    position: sticky;
+    z-index: 99;
+}
+
+.navegacao ul li {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+
+.textofarma {
+    font-size: 23px;
+    color: yellow;
+}
+
+.textopyse {
+    font-size: 23px;
+    color: white;
 }
