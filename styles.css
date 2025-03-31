@@ -15,7 +15,7 @@ body {
     z-index: 99;
 }
 
-.navegacao ul li {
+.navegacao ul {
     text-decoration: none;
     align-items: center;
     display: flex;
