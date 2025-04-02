@@ -1,18 +1,31 @@
 body {
-    background-color: black;
+    background-color: white;
     font-family: sans-serif;
 }
 
+footer {
+    background-color: #00d7d7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
 .navegacao {
-    background-color: grey;
+    background-color: #00d7d7;
     align-items: center;
     display: flex;
     margin: 0;
     padding: 1rem;
     top: 0;
-    box-shadow: 8px 0px 8px grey;
+    box-shadow: 8px 0px 8px #00d7d7;
     position: sticky;
     z-index: 99;
+    justify-content: space-between;
 }
 
 .navegacao ul {
@@ -21,12 +34,57 @@ body {
     display: flex;
 }
 
-.textofarma {
-    font-size: 23px;
-    color: yellow;
+.menu_list {
+    display: flex;
+    gap: 8px;
+    list-style: none;
 }
 
-.textopyse {
-    font-size: 23px;
+.textofarma {
+    font-size: 25px;
     color: white;
+}
+
+.mural {
+    max-width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+    border-radius: 20px;
+    background-color: #00d7d7;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.mensagem {
+    text-align: center;
+}
+
+.cards_navegacao {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 0px 60px 80px;
+}
+
+.grupo {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 115, 206, .1);
+    border: 2px solid #0073ce;
+    border-radius: 8px;
+    height: 80px;
+    width: 150px;
+    justify-content: center;
+}
+
+.icon_img {
+    height: 30px;
+    width: 30px;
 }
