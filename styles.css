@@ -6,13 +6,16 @@ body {
 footer {
     background-color: #00d7d7;
     color: white;
-    display: flex;
+    display: block;
     flex-direction: column;
     gap: 5px;
-    height: 100px;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;    
+}
+
+footer h3 {
+    text-align: center;
 }
 
 .navegacao {
