@@ -232,3 +232,7 @@ footer h3 {
     color: white;
     cursor: pointer;
 }
+
+.comprar:hover {
+    transform: scale(1.1);
+}
