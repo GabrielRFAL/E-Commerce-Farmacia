@@ -143,6 +143,10 @@ footer h3 {
     text-align: center;
 }
 
+.grupo_medicamentos:hover {
+    transform: translateY(-5px);
+}
+
 .grupo_vitaminas {
     background-color: white;
     border-radius: 8px;
@@ -156,6 +160,10 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
+}
+
+.grupo_vitaminas:hover {
+    transform: translateY(-5px);
 }
 
 .grupo_higiene {
@@ -173,6 +181,10 @@ footer h3 {
     text-align: center;
 }
 
+.grupo_higiene:hover {
+    transform: translateY(-5px);
+}
+
 .grupo_infantis {
     background-color: white;
     border-radius: 8px;
@@ -188,6 +200,10 @@ footer h3 {
     text-align: center;
 }
 
+.grupo_infantis:hover {
+    transform: translateY(-5px);
+}
+
 .grupo_beleza {
     background-color: white;
     border-radius: 8px;
@@ -201,6 +217,10 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
+}
+
+.grupo_beleza:hover {
+    transform: translateY(-5px);
 }
 
 .precos {
