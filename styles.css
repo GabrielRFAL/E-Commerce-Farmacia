@@ -9,9 +9,10 @@ footer {
     display: block;
     flex-direction: column;
     gap: 5px;
-    position: fixed;
+    height: 100px;
     width: 100%;
-    bottom: 0;    
+    bottom: 0;
+    padding: 2px;   
 }
 
 footer h3 {
@@ -27,8 +28,8 @@ footer h3 {
     top: 0;
     box-shadow: 8px 0px 8px #00d7d7;
     position: sticky;
-    z-index: 99;
     justify-content: space-between;
+    z-index: 99;
 }
 
 .navegacao ul {
