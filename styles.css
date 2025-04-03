@@ -92,3 +92,125 @@ footer h3 {
     height: 30px;
     width: 30px;
 }
+
+.medicamentos {
+    padding: 0px 68px 86px;
+}
+
+.vitaminas {
+    padding: 0px 68px 86px;
+}
+
+.higiene {
+    padding: 0px 68px 86px;
+}
+
+.infantis {
+    padding: 0px 68px 86px;
+}
+
+.beleza {
+    padding: 0px 68px 86px;
+}
+
+.titulos {
+    color: #002440;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.grupo_medicamentos {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_vitaminas {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_higiene {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_infantis {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_beleza {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.precos {
+    color: #002440;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.texto_produtos {
+    color: #002440;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.icon_produtos {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 32px;
+}
